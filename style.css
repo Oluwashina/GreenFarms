@@ -161,3 +161,35 @@ body{
     z-index: 1;
     display: none;
 }
+
+/* funds styles */
+.fund{
+    border:0;
+    transition: all ease-in-out 0.6s;  
+}
+.btn-fund{
+    background: #48c074;
+    border-radius: 38.5px;
+    color: #fff;
+    padding: 10px 20px;
+    transition: all 0.5s ;
+  }
+  .btn-fund.active{
+    background: #fff;
+    box-shadow: 0px -2px 10px rgba(255, 255, 255, 0.14), 0px 4.5px 10px rgba(255, 255, 255, 0.14);
+    color: #48c074;
+    border: 1px solid #48c074;
+    transition: all 0.5s ;
+  }
+  .btn-fund:hover{
+    background: #fff;
+    box-shadow: 0px -2px 10px rgba(255, 255, 255, 0.14), 0px 4.5px 10px rgba(255, 255, 255, 0.14);
+    color: #48c074;
+    border: 1px solid #48c074;
+  }
+  .btn-fund.active:hover{
+    background: #48c074;
+    box-shadow: 0px -2px 10px rgba(255, 255, 255, 0.14), 0px 4.5px 10px rgba(255, 255, 255, 0.14);
+    color: #fff;
+  }
+  
